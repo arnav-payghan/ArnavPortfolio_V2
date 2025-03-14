@@ -1,3 +1,3 @@
 # Arnav's Portfolio
 ### Home Page Layout Plan:
-![homePage](https://github.com/user-attachments/assets/e1c9cae2-9572-4b2a-82de-83f180622ff1)
+![homePage](https://github.com/user-attachments/assets/19509074-2a78-4c3b-b91b-fca78dcc0b34)
