@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* IMPORTED CUSTOM FONTS */
 @font-face {
     font-family: noirden-bold;
     src: url(../public/fonts/Noirden-Bold.ttf);
 }
 .noirden {
     font-family: noirden-bold;
+}
+
+@font-face {
+    font-family: neometric-extraBold;
+    src: url(E:\ArnavPortfolio_V2\web-portfolio\public\fonts\Neometric-ExtraBold.otf);
+}
+.neometric {
+    font-family: neometric-extraBold;
 }
