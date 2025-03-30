@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: noirden-bold;
+    src: url(../public/fonts/Noirden-Bold.ttf);
+}
+.noirden {
+    font-family: noirden-bold;
+}
