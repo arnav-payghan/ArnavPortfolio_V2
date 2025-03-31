@@ -8,6 +8,7 @@ import { title } from "@/components/primitives";
 import { useState } from "react";
 // import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
+import FloatingWords from "@/components/FloatingWords";
 
 export default function IndexPage() {
   const [ghostImage, setGhostImage] = useState("/image-assets/ghostOpenEye.svg");
