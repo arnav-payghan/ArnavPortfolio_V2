@@ -15,7 +15,7 @@ export default function IndexPage() {
 
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 relative">
+      <section className="flex flex-col items-center justify-center gap-2 py-8 md:py-10 relative">
         <div className="absolute inset-0 z-3 pointer-events-none">
           <FloatingWords />
         </div>
@@ -28,10 +28,26 @@ export default function IndexPage() {
             onMouseLeave={() => setGhostImage("/image-assets/ghostOpenEye.svg")}
             alt="Ghost"
           />
-          <div className={`${title({ size: "main" })} neometric text-center relative z-1 text-base_Black`}>
-            arnav.
+          <div className={`${title({ size: "main" })} neometric text-center relative z-1 text-base_Black  `}>
+            <span className="">
+              arnav.  { /* NEED TO MAKE THIS RESPONSIVE */}
+            </span>
           </div>
-        </div>  
+        </div>
+        <div className="absolute -bottom-24 translate-y-20 left-1 z-10 flex items-center gap-2 text-white text-sm md:text-base lg:text-lg xl:text-xl">
+          <img 
+            src="/image-assets/scrollDownArrow.svg" 
+            alt="Scroll Down Arrow"
+            className="w-1 h-1 sm:w-3 sm:h-3 md:w-4 md:h-4 lg:w-6 lg:h-6 xl:w-6 xl:h-6"
+          />
+          <span className="noirden text-text_Black text-sm sm:text-base md:text-md lg:text-lg xl:text-xl">
+            Scroll to view more.
+          </span>
+        </div>
+      </section>
+
+      <section className="flex flex-col items-center justify-center gap-2 py-8 md:py-10 relative">
+
       </section>
     </DefaultLayout>
   );
