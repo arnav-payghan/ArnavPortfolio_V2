@@ -19,3 +19,12 @@
 .neometric {
     font-family: neometric-extraBold;
 }
+
+
+@font-face {
+    font-family: domaine-display;
+    src: url(E:\ArnavPortfolio_V2\web-portfolio\public\fonts\TestDomaineDisplay-RegularItalic.otf);
+}
+.domaine_display {
+    font-family: domaine-display;
+}

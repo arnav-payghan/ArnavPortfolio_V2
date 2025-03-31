@@ -16,7 +16,10 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 relative">
-        <div className="relative w-fit">
+        <div className="absolute inset-0 z-3 pointer-events-none">
+          <FloatingWords />
+        </div>
+        <div className="relative w-fit z-2">
           <img 
             className="absolute -bottom-2 left-1/3 -translate-x-1/2 sm:-bottom-1 lg:-bottom-1
             transition-transform duration-300 ease-in-out hover:scale-110 w-5 sm:w-12 md:w-20 lg:w-24 rounded-full z-10"
